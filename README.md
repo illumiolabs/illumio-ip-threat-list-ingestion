@@ -19,8 +19,7 @@ As of now the dependencies which needed are documented in requirements.txt, just
 git clone https://github.com/illumiolabs/illumio-ip-threat-list-ingestion.git
 cd illumio-ip-threat-list-ingestion
 pip install -r requirements.txt
-./illumio-ip-threat-list-ingestion.py -h
-illumio-ip-threat-list-ingestion.py -i <ip threat list url>
+./src/illumio-ip-threat-list-ingestion.py
 ```
 
 ## Usage
@@ -39,7 +38,7 @@ export THREAT_LIST_KEY=135 # ID of the IP List as shown in image below.
 ![](images/threat-list-key.jpg)
 ```bash
 # Finally when you have all the variables set, run the following command, you will see the output as shown.
-./illumio-ip-threat-list-ingestion.py
+./src/illumio-ip-threat-list-ingestion.py
 ip threat list url is:  https://raw.githubusercontent.com/stamparm/ipsum/master/levels/7.txt
 malicious ip threat list fetched successfully.
 current pce ip threat list: [ 171.25.193.77 , 171.25.193.20 ...<snip>... 185.100.87.207 ]
