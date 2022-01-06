@@ -43,7 +43,7 @@ export THREAT_LIST_KEY=<Threat list ID> # Numerical ID of the IP List to be upda
 Run the program from command line and provide the URL when prompted
 ```bash
 ./src/illumio-ip-threat-list-ingestion.py
-ip threat list url is:  <loaded URL>
+ip threat list url is:  https://raw.githubusercontent.com/stamparm/ipsum/master/levels/7.txt
 malicious ip threat list fetched successfully.
 current pce ip threat list: [ 171.25.193.77 , 171.25.193.20 ...<snip>... 185.100.87.207 ]
 duplicate ips found in new list: [ 171.25.193.77 , 171.25.193.20 ...<snip>... 222.186.175.163 ]
