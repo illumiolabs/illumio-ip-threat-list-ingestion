@@ -1,10 +1,11 @@
-## Changelog
+## 2022-01-04
 
 ### Added
-* Initial commit.
+* Nothing
 
 ### Fixed
-* Nothing.
+- updated to Python 3.9
+- README changes
 
 ### Removed
-* Nothing.
+- Nothing.

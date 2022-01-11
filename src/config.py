@@ -17,7 +17,6 @@
 Configuration for running the Illumio Threat Ingestion script
 
 """
-import os
 
 threat_list = ["https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/malwaredomainlist.ipset", "https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/bambenek_c2.ipset"]
 timer = 600
